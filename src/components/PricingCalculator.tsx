@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Calculator } from 'lucide-react';
 import { PricingFormData } from '../types';
-import { calculateTotalFees } from '../utils/feeCalculators';
 
 const categories = [
   'Automotive - Helmets & Riding Gloves',
@@ -15,27 +14,53 @@ const categories = [
 
 export default function PricingCalculator() {
   const [formData, setFormData] = useState<PricingFormData>({
-    productCategory: categories[0],
-    sellingPrice: 0,
+    category: categories[0],
+    price: 0,
     weight: 0.5,
-    shippingMode: 'Easy Ship',
-    serviceLevel: 'Standard',
-    productSize: 'Standard',
+    shipping_mode: 'Easy Ship',
+    service_level: 'Standard',
+    product_size: 'Standard',
     location: 'Local'
   });
 
   const [results, setResults] = useState<any>(null);
 
-  const handleCalculate = () => {
-    const calculatedFees = calculateTotalFees(formData);
+  async function calculateProfitability() {
+    const url = "http://127.0.0.1:8000/api/v1/profitability-calculator";
+    const requestBody= formData;
+  
+    try {
+      console.log(JSON.stringify(requestBody));
+      const response = await fetch(url, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(requestBody),
+      });
+  
+      if (!response.ok) {
+        throw new Error(`HTTP error! Status: ${response.status}`);
+      }
+      
+      const data = await response.json();
+      console.log(data);
+      return data;
+    } catch (error) {
+      console.error("Error calculating profitability:", error);
+    }
+  }
+  const handleCalculate = async () => {
+    const calculatedFees = await calculateProfitability();
     setResults(calculatedFees);
+    //console.log(results);
   };
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
     const { name, value } = e.target;
     setFormData(prev => ({
       ...prev,
-      [name]: name === 'sellingPrice' || name === 'weight' ? parseFloat(value) : value
+      [name]: name === 'price' || name === 'weight' ? parseFloat(value) : value
     }));
   };
 
@@ -55,8 +80,8 @@ export default function PricingCalculator() {
                   Product Category
                 </label>
                 <select
-                  name="productCategory"
-                  value={formData.productCategory}
+                  name="category"
+                  value={formData.category}
                   onChange={handleInputChange}
                   className="w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
                 >
@@ -72,8 +97,8 @@ export default function PricingCalculator() {
                 </label>
                 <input
                   type="number"
-                  name="sellingPrice"
-                  value={formData.sellingPrice}
+                  name="price"
+                  value={formData.price}
                   onChange={handleInputChange}
                   className="w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
                 />
@@ -99,8 +124,8 @@ export default function PricingCalculator() {
                     Shipping Mode
                   </label>
                   <select
-                    name="shippingMode"
-                    value={formData.shippingMode}
+                    name="shipping_mode"
+                    value={formData.shipping_mode}
                     onChange={handleInputChange}
                     className="w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
                   >
@@ -115,8 +140,8 @@ export default function PricingCalculator() {
                     Service Level
                   </label>
                   <select
-                    name="serviceLevel"
-                    value={formData.serviceLevel}
+                    name="service_level"
+                    value={formData.service_level}
                     onChange={handleInputChange}
                     className="w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
                   >
@@ -134,8 +159,8 @@ export default function PricingCalculator() {
                     Product Size
                   </label>
                   <select
-                    name="productSize"
-                    value={formData.productSize}
+                    name="product_size"
+                    value={formData.product_size}
                     onChange={handleInputChange}
                     className="w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
                   >
@@ -176,19 +201,19 @@ export default function PricingCalculator() {
                 <div className="space-y-3">
                   <div className="flex justify-between">
                     <span className="text-gray-600">Referral Fee:</span>
-                    <span className="font-medium">₹{results.referralFee.toFixed(2)}</span>
+                    <span className="font-medium">₹{results.breakdown.referralFee.toFixed(2)}</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-gray-600">Weight Handling Fee:</span>
-                    <span className="font-medium">₹{results.weightHandlingFee.toFixed(2)}</span>
+                    <span className="font-medium">₹{results.breakdown.weightHandlingFee.toFixed(2)}</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-gray-600">Closing Fee:</span>
-                    <span className="font-medium">₹{results.closingFee.toFixed(2)}</span>
+                    <span className="font-medium">₹{results.breakdown.closingFee.toFixed(2)}</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-gray-600">Pick & Pack Fee:</span>
-                    <span className="font-medium">₹{results.pickAndPackFee.toFixed(2)}</span>
+                    <span className="font-medium">₹{results.breakdown.pickAndPackFee.toFixed(2)}</span>
                   </div>
                   <div className="h-px bg-gray-200 my-4"></div>
                   <div className="flex justify-between text-lg font-semibold">

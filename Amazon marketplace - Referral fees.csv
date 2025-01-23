@@ -1,0 +1,406 @@
+Category,Price Range (INR),Referral Fee Percentage
+Automotive - Helmets & Riding Gloves,<= 500,6.50%
+Automotive - Helmets & Riding Gloves,> 500,8.50%
+Automotive - Tyres & Rims,<= 500,5.00%
+Automotive - Tyres & Rims,> 500,7.00%
+Automotive Vehicles - 2-Wheelers 4-Wheelers and Electric Vehicles,All,5%
+Automotive – Car and Bike parts,<= 500,13.00%
+Automotive – Car and Bike parts,> 500,14.00%
+Automotive – Cleaning kits,<= 500,9.00%
+Automotive – Cleaning kits,> 500,12.00%
+Automotive Accessories,<= 1000,14%
+Automotive Accessories,> 1000,15.50%
+Vehicle Tools and Appliances,<= 300,6.50%
+Vehicle Tools and Appliances,> 300 and <= 500,7.50%
+Vehicle Tools and Appliances,> 500,8.50%
+Oils Lubricants,All,8.50%
+Automotive – Batteries and air fresheners,<= 500,6.50%
+Automotive – Batteries and air fresheners,> 500 and <= 1000,7.50%
+Automotive – Batteries and air fresheners,> 1000,8.50%
+Car Electronics Devices,<= 500,7.50%
+Car Electronics Devices,> 500 and <= 1000,9.50%
+Car Electronics Devices,> 1000,10%
+Car Electronics Accessories,<= 500,10.50%
+Car Electronics Accessories,> 500 and <= 1000,11%
+Car Electronics Accessories,> 1000,13%
+Baby Hardlines,<= 300,6%
+Baby Hardlines,> 300 and <= 500,8.50%
+Baby Hardlines,> 500 and <= 1000,6%
+Baby Hardlines,> 1000,7.50%
+Baby Strollers,<= 300,4%
+Baby Strollers,> 300 and <= 1000,6%
+Baby Strollers,> 1000,10%
+Baby diapers,<= 300,5.00%
+Baby diapers,> 300 and <= 500,5.50%
+Baby diapers,> 500,9.50%
+Books,<= 250,3%
+Books,> 250 and <= 500,4.50%
+Books,> 500 and <= 1000,9%
+Books,> 1000,13.50%
+Movies,All,6.50%
+Music,All,6.50%
+Musical Instruments - Guitars,All,10%
+Musical Instruments - Keyboards,<= 500,8.00%
+Musical Instruments - Keyboards,> 500,12.00%
+Musical Instruments - Microphones,All,9.50%
+Musical Instruments - Others,<= 300,10.00%
+Musical Instruments - Others,> 300 and <= 500,7.00%
+Musical Instruments - Others,> 500 and <= 1000,10.50%
+Musical Instruments - Others,> 1000,11.00%
+Video Games - Online game services,<= 500,2.00%
+Video Games - Online game services,> 500,3.50%
+Video Games - Accessories,<= 500,10.50%
+Video Games - Accessories,> 500,13.50%
+Video Games - Consoles,<= 1000,7.00%
+Video Games - Consoles,> 1000,9.00%
+Video Games,<= 500,9.00%
+Video Games,> 500 and <= 1000,10.00%
+Video Games,> 1000,12.00%
+Business and Industrial Supplies - Scientific Supplies,<= 300,11%
+Business and Industrial Supplies - Scientific Supplies,> 300 and <= 15000,11.50%
+Business and Industrial Supplies - Scientific Supplies,> 15000,7%
+OTC Medicine,<= 500,12.00%
+OTC Medicine,> 500,15.00%
+Masks,All,7%
+Weighing Scales & Fat Analyzers,<= 300,11%
+Weighing Scales & Fat Analyzers,> 300 and <= 500,10.50%
+Weighing Scales & Fat Analyzers,> 500,13.50%
+3D Printers,All,11%
+Business and Industrial Supplies - Material Handling Equipment,All,5.50%
+Business and Industrial Supplies - Electrical Testing,All,5%
+Business and Industrial Supplies - Power tools & accessories,All,10%
+Occupational Safety Supplies,All,5%
+Stethoscopes,All,9.50%
+Packing materials,All,5%
+Power & hand Tools and Water Dispenser,<= 500,8.00%
+Power & hand Tools and Water Dispenser,> 500,10.00%
+Office products - Office supplies,<= 500,10.00%
+Office products - Office supplies,> 500,13.00%
+Office products - Electronic Devices,<= 300,7.50%
+Office products - Electronic Devices,> 300 and <= 500,4.50%
+Office products - Electronic Devices,> 500 and <= 1000,10.00%
+Office products - Electronic Devices,> 1000,10.50%
+Office products - Arts and Crafts,<= 500,10%
+Office products - Arts and Crafts,> 500 and <= 1000,11%
+Office products - Arts and Crafts,> 1000,12.50%
+Office products - Writing Instruments,<= 300,10%
+Office products - Writing Instruments,> 300 and <= 1000,11%
+Office products - Writing Instruments,> 1000,12.50%
+Apparel - Accessories,<= 500,13%
+Apparel - Accessories,> 500,19%
+Apparel - Sweat Shirts and Jackets,<= 500,8.00%
+Apparel - Sweat Shirts and Jackets,> 500,12.00%
+Apparel - Shorts,<= 300,16.50%
+Apparel - Shorts,> 300 and <= 500,13.50%
+Apparel - Shorts,> 500 and <= 1000,23.50%
+Apparel - Shorts,> 1000,24%
+Apparel - Baby,<= 300,6.00%
+Apparel - Baby,> 300 and <= 500,7.50%
+Apparel - Baby,> 500 and <= 1000,14.00%
+Apparel - Baby,> 1000,20.00%
+Apparel - Ethnic wear,<= 300,6.50%
+Apparel - Ethnic wear,> 300 and <= 500,4%
+Apparel - Ethnic wear,> 500 and <= 1000,8.00%
+Apparel - Ethnic wear,> 1000,17.50%
+Apparel - Other innerwear,<= 300,12.00%
+Apparel - Other innerwear,> 300 and <= 500,11.00%
+Apparel - Other innerwear,> 500 and <= 1000,16.50%
+Apparel - Other innerwear,> 1000,18.50%
+Apparel - Sleepwear,<= 500,10.00%
+Apparel - Sleepwear,> 500 and <= 1000,16.00%
+Apparel - Sleepwear,> 1000,19.00%
+Apparel - Sarees and Dress Materials,<= 300,10.00%
+Apparel - Sarees and Dress Materials,> 300 and <= 500,8.00%
+Apparel - Sarees and Dress Materials,> 500 and <= 1000,12.00%
+Apparel - Sarees and Dress Materials,> 1000,23.00%
+Apparel - Men's T-shirts,<= 300,2.00%
+Apparel - Men's T-shirts,> 300 and <= 500,5.00%
+Apparel - Men's T-shirts,> 500,21.00%
+Apparel - Womens' Innerwear / Lingerie,<= 500,12.00%
+Apparel - Womens' Innerwear / Lingerie,> 500 and <= 1000,18.00%
+Apparel - Womens' Innerwear / Lingerie,> 1000,15.00%
+Backpacks,<= 300,12.00%
+Backpacks,> 300 and <= 500,10.00%
+Backpacks,> 500 and <= 1000,12.00%
+Backpacks,> 1000,14.50%
+Eyewear,<= 500,14.00%
+Eyewear,> 500 and <= 1000,14.50%
+Eyewear,> 1000,18.50%
+Fashion Jewellery,<= 500,17.50%
+Fashion Jewellery,> 500,22.50%
+Fine Jewellery - Gold Coins,All,5%
+Fine Jewellery - studded,All,13%
+Fine Jewellery - unstudded and solitaire,All,5%
+Silver Jewellery,<= 1000,10.50%
+Silver Jewellery,> 1000,13.00%
+Flip Flops Fashion Sandals and Slippers,<= 500,13.00%
+Flip Flops Fashion Sandals and Slippers,> 500 and <= 1000,12.50%
+Flip Flops Fashion Sandals and Slippers,> 1000,15.00%
+Handbags,<= 300,2.00%
+Handbags,> 300 and <= 500,10.00%
+Handbags,> 500 and <= 1000,11.00%
+Handbags,> 1000,12.00%
+Luggage - Suitcase & Trolleys,<= 500,7.50%
+Luggage - Suitcase & Trolleys,> 500 and <= 1000,6.50%
+Luggage - Suitcase & Trolleys,> 1000,5.50%
+Luggage - Travel Accessories,<= 300,10.00%
+Luggage - Travel Accessories,> 300 and <= 500,9.00%
+Luggage - Travel Accessories,> 500 and <= 1000,10.00%
+Luggage - Travel Accessories,> 1000,12.00%
+Kids shoes,<= 300,10.00%
+Kids shoes,> 300 and <= 1000,14.00%
+Kids shoes,> 1000,16.00%
+Shoes,<= 300,15.00%
+Shoes,> 300 and <= 1000,14.50%
+Shoes,> 1000,16.50%
+Shoes - Sandals & Floaters,All,10.50%
+Wallets,<= 500,10.00%
+Wallets,> 500 and <= 1000,12.50%
+Wallets,> 1000,14.00%
+Watches,All,14%
+Cables and Adapters,<= 300,21.50%
+Cables and Adapters,> 300 and <= 500,17.00%
+Cables and Adapters,> 500,20.00%
+Camera Accessories,<= 500,11.00%
+Camera Accessories,> 500 and <= 1000,12.50%
+Camera Accessories,> 1000,13.50%
+Camera Lenses,All,7%
+Camera and Camcorder,All,5%
+Cases Covers Skins Screen Guards,<= 150,3.00%
+Cases Covers Skins Screen Guards,> 150 and <= 300,15.00%
+Cases Covers Skins Screen Guards,> 300 and <= 500,22.00%
+Cases Covers Skins Screen Guards,> 500,25.00%
+Desktops,All,8%
+Electronic Accessories,All,17%
+Electronic Devices,All,9%
+Entertainment Collectibles,<= 300,13%
+Entertainment Collectibles,> 300,17%
+Fashion Smartwatches,All,15.50%
+GPS Devices,All,13.50%
+Hard Disks,<= 1000,9.50%
+Hard Disks,> 1000,11.50%
+Headsets Headphones and Earphones,<= 500,18.00%
+Headsets Headphones and Earphones,> 500 and <= 1000,17.50%
+Headsets Headphones and Earphones,> 1000,18.00%
+Keyboards and Mouse,<= 500,14.00%
+Keyboards and Mouse,> 500 and <= 1000,14.50%
+Keyboards and Mouse,> 1000,17%
+Kindle Accessories,All,25%
+Laptop Bags & Sleeves,<= 300,12.00%
+Laptop Bags & Sleeves,> 300 and <= 500,10.00%
+Laptop Bags & Sleeves,> 500 and <= 1000,12.00%
+Laptop Bags & Sleeves,> 1000,14.50%
+Laptop and Camera Battery,<= 300,14.00%
+Laptop and Camera Battery,> 300 and <= 500,12.50%
+Laptop and Camera Battery,> 500 and <= 1000,14.00%
+Laptop and Camera Battery,> 1000,15.50%
+Laptops,<= 70000,6.00%
+Laptops,> 70000,7.00%
+Memory Cards,All,16%
+Mobile phones,All,5.50%
+Tablets,<= 12000,6%
+Tablets,> 12000,9%
+Modems & Networking Devices,All,14%
+Monitors,<= 1000,6.50%
+Monitors,> 1000,8.00%
+PC Components,All,5.50%
+Power Banks & Chargers,<= 1000,20%
+Power Banks & Chargers,> 1000,20.50%
+Printers & Scanners,<= 500,9.00%
+Printers & Scanners,> 500 and <= 1000,9.50%
+Printers & Scanners,> 1000,10.50%
+Software Products,All,9.50%
+Speakers,<= 500,11.00%
+Speakers,> 500 and <= 1000,11.50%
+Speakers,> 1000,12.00%
+Television,All,6%
+Landline Phones,All,7%
+Smart Watches & Accessories,<= 500,15.50%
+Smart Watches & Accessories,> 500 and <= 1000,16.50%
+Smart Watches & Accessories,> 1000,17.00%
+USB Flash Drives,All,16%
+Projectors Home Theatre Systems,All,6.00%
+Grocery - herbs and spices,<= 300,4%
+Grocery - herbs and spices,> 300 and <= 1000,5.50%
+Grocery - herbs and spices,> 1000,8.00%
+Grocery & Gourmet - Oils,<= 1000,7.50%
+Grocery & Gourmet - Oils,> 1000,9%
+Grocery - Dried fruits and nuts,<= 500,6.00%
+Grocery - Dried fruits and nuts,> 500 and <= 1000,8.00%
+Grocery - Dried fruits and nuts,> 1000,9.00%
+Grocery - Hampers and gifting,<= 1000,9%
+Grocery - Hampers and gifting,> 1000,11.50%
+Pet food,<= 300,5.50%
+Pet food,> 300 and <= 1000,11.50%
+Pet food,> 1000,12.50%
+Pet Products,<= 300,2.00%
+Pet Products,> 300 and <= 500,10.50%
+Pet Products,> 500,12.00%
+Beauty - Fragrance,<= 300,13.50%
+Beauty - Fragrance,> 300 and <= 500,12.50%
+Beauty - Fragrance,> 500,14%
+Beauty - Haircare Bath and Shower,<= 300,7.50%
+Beauty - Haircare Bath and Shower,> 300 and <= 500,5.00%
+Beauty - Haircare Bath and Shower,> 500,8.00%
+Beauty - Makeup,<= 300,6%
+Beauty - Makeup,> 300 and <= 500,4.50%
+Beauty - Makeup,> 500 and <= 1000,7.50%
+Beauty - Makeup,> 1000,7%
+Face Wash,<= 300,6%
+Face Wash,> 300 and <= 500,5%
+Face Wash,> 500 and <= 1000,9%
+Face Wash,> 1000,9.50%
+Moisturizer cream,<= 500,6.50%
+Moisturizer cream,> 500 and <= 1000,9%
+Moisturizer cream,> 1000,9.50%
+Sunscreen,<= 300,5.50%
+Sunscreen,> 300 and <= 500,6.00%
+Sunscreen,> 500 and <= 1000,9.00%
+Sunscreen,> 1000,9.50%
+Deodrants,<= 300,8.50%
+Deodrants,> 300 and <= 1000,6.50%
+Deodrants,> 1000,7%
+Facial steamers,<= 300,7.00%
+Facial steamers,> 300 and <= 500,6.50%
+Facial steamers,> 500,7.00%
+Prescription Medicine,All,6%
+Health & Personal Care - Medical Equipment & Contact Lens,All,8%
+Health and Personal Care - Ayurvedic products,<= 500,6.00%
+Health and Personal Care - Ayurvedic products,> 500 and <= 1000,7.00%
+Health and Personal Care - Ayurvedic products,> 1000,8.00%
+Health & Household - Sports Nutrition,All,9%
+Health and Personal Care - Contact lens,All,12%
+Health and Household - Household Cleaning,<= 500,4.50%
+Health and Household - Household Cleaning,> 500 and <= 1000,7.50%
+Health and Household - Household Cleaning,> 1000,8%
+Health and Household - Vitamins & Supplements,<= 500,9.00%
+Health and Household - Vitamins & Supplements,> 500,10.50%
+Luxury Beauty,<= 300,5%
+Luxury Beauty,> 300 and <= 500,6%
+Luxury Beauty,> 500 and <= 1000,9%
+Luxury Beauty,> 1000,10%
+Car Cradles Lens Kits and Tablet Cases,<= 500,19.00%
+Car Cradles Lens Kits and Tablet Cases,> 500 and <= 1000,25.00%
+Car Cradles Lens Kits and Tablet Cases,> 1000,29.00%
+Personal Care Appliances - Electric Massagers,<= 500,9.50%
+Personal Care Appliances - Electric Massagers,> 500 and <= 1000,13.50%
+Personal Care Appliances - Electric Massagers,> 1000,14.50%
+Personal Care Appliances - Grooming & Styling,<= 500,11.00%
+Personal Care Appliances - Grooming & Styling,> 500 and <= 1000,10.00%
+Personal Care Appliances - Grooming & Styling,> 1000,9.00%
+Personal Care Appliances - Glucometer,All,5.50%
+Personal Care Appliances - Thermometers,<= 500,12.50%
+Personal Care Appliances - Thermometers,> 500,10.50%
+Bean Bags & Inflatables,All,11%
+Mattresses,<= 1000,25.50%
+Mattresses,> 1000 and <= 20000,16%
+Mattresses,> 20000,13.50%
+Rugs and Doormats,<= 300,4.00%
+Rugs and Doormats,> 300,9.00%
+Clocks,<= 300,4.00%
+Clocks,> 300 and <= 1000,9.00%
+Clocks,> 1000,10.00%
+Wall Art,<= 300,5.00%
+Wall Art,> 300 and <= 500,11.00%
+Wall Art,> 500,13.50%
+Home - Fragrance & Candles,<= 300,2.00%
+Home - Fragrance & Candles,> 300 and <= 500,7.50%
+Home - Fragrance & Candles,> 500,12.50%
+Bedsheets Blankets and covers,<= 500,3.00%
+Bedsheets Blankets and covers,> 500 and <= 1000,7.00%
+Bedsheets Blankets and covers,> 1000,8.50%
+Home furnishing,<= 300,2.00%
+Home furnishing,> 300 and <= 1000,7.00%
+Home furnishing,> 1000,11.00%
+Containers Boxes Bottles Kitchen Storage,<= 300,2.00%
+Containers Boxes Bottles Kitchen Storage,> 300 and <= 500,5.00%
+Containers Boxes Bottles Kitchen Storage,> 500,12.00%
+Home improvement - Accessories,All,13.50%
+Home improvement (excl. accessories),All,9%
+Tiles & Flooring Accessories,All,8%
+Wires,All,10%
+Ladders Kitchen and Bath fixtures,All,8.00%
+Home Storage,<= 300,5.50%
+Home Storage,> 300 and <= 1000,11.00%
+Home Storage,> 1000,15.00%
+Wallpapers & Wallpaper Accessories,<= 500,9.00%
+Wallpapers & Wallpaper Accessories,> 500 and <= 1000,8.00%
+Wallpapers & Wallpaper Accessories,> 1000,6.50%
+Home Decor Products,<= 300,6.00%
+Home Decor Products,> 300 and <= 1000,12.00%
+Home Decor Products,> 1000,17.00%
+Wall Paints and Tools,<= 300,9%
+Wall Paints and Tools,> 300,6%
+Home - Waste & Recycling,<= 300,7.50%
+Home - Waste & Recycling,> 300,8.00%
+Craft materials,<= 500,2%
+Craft materials,> 500,5%
+Water Purifier and Accessories,<= 5000,6.50%
+Water Purifier and Accessories,> 5000,7.50%
+Water Heaters and Accessories,<= 5000,8%
+Water Heaters and Accessories,> 5000,9%
+Home improvement - Kitchen & Bath,<= 300,5%
+Home improvement - Kitchen & Bath,> 300,12%
+Sanitaryware,All,10%
+Home Safety & Security Systems,All,6%
+Inverter and Batteries,All,4.50%
+Cleaning and Home Appliances,<= 5000,7.50%
+Cleaning and Home Appliances,> 5000,8.50%
+Indoor Lighting,<= 500,6.00%
+Indoor Lighting,> 500 and <= 1000,14.50%
+Indoor Lighting,> 1000,11.50%
+Doors and Windows,All,10%
+LED Bulbs and Battens,<= 300,2.00%
+LED Bulbs and Battens,> 300 and <= 500,6.50%
+LED Bulbs and Battens,> 500,14.00%
+Cushion Covers,<= 300,3.00%
+Cushion Covers,> 300 and <= 500,7.00%
+Cushion Covers,> 500,10.00%
+Curtains and Curtain Accessories,<= 300,15.50%
+Curtains and Curtain Accessories,> 300 and <= 500,16.50%
+Curtains and Curtain Accessories,> 500 and <= 1000,11.50%
+Curtains and Curtain Accessories,> 1000,16.50%
+Slipcovers and Kitchen Linens,<= 300,7.50%
+Slipcovers and Kitchen Linens,> 300 and <= 500,11.50%
+Slipcovers and Kitchen Linens,> 500,15.50%
+Safes and Lockers,All,12%
+Lawn & Garden - Solar Panels,All,6%
+Lawn & Garden - Leaf blower,All,6.50%
+Lawn & Garden - Commercial Agricultural,All,3.00%
+Lawn & Garden - Chemical Pest Control,<= 1000,7.00%
+Lawn & Garden - Chemical Pest Control,> 1000,9.00%
+Lawn & Garden - Solar Devices,All,8%
+Lawn and Garden - Planters,<= 300,13%
+Lawn and Garden - Planters,> 300 and <= 15000,10%
+Lawn and Garden - Planters,> 15000,5%
+Lawn and Garden - Plants Seeds & Bulbs,<= 500,9.50%
+Lawn and Garden - Plants Seeds & Bulbs,> 500,11%
+Lawn & Garden - Outdoor equipments,All,6.50%
+Kitchen - Non Appliances,<= 300,6%
+Kitchen - Non Appliances,> 300,11.50%
+Kitchen - Glassware & Ceramicware,<= 500,4.00%
+Kitchen - Glassware & Ceramicware,> 500 and <= 1000,11.00%
+Kitchen - Glassware & Ceramicware,> 1000,12.50%
+Kitchen - Gas Stoves & Pressure Cookers,<= 1500,6%
+Kitchen - Gas Stoves & Pressure Cookers,> 1500,10%
+Large Appliances (excl. specified),All,5.50%
+Large Appliances - Accessories,All,16%
+Large Appliances - Chimneys,All,9.50%
+Large Appliances - Refrigerators,All,5%
+Small Appliances,<= 5000,6.50%
+Small Appliances,> 5000,8.00%
+Fans and Robotic Vacuums,<= 3000,6.50%
+Fans and Robotic Vacuums,> 3000,8.00%
+Bicycles,<= 300,7.00%
+Bicycles,> 300 and <= 1000,5.50%
+Bicycles,> 1000,6.00%
+Sports & Outdoors - Footwear,<= 300,11.50%
+Sports & Outdoors - Footwear,> 300 and <= 500,12.50%
+Sports & Outdoors - Footwear,> 500 and <= 1000,14.50%
+Sports & Outdoors - Footwear,> 1000,16.00%
+Coin Collectibles,All,15%
+Silver Coins & Bars,All,3%
+Furniture - Other products,<= 15000,15.50%
+Furniture - Other products,> 15000,11%
+Consumable Physical Gift Card,All,5%
+Warranty Services,All,30%

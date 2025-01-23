@@ -3,11 +3,11 @@ export type ServiceLevel = 'Premium' | 'Advanced' | 'Standard' | 'Basic';
 export type ProductSize = 'Standard' | 'Heavy & Bulky';
 
 export interface PricingFormData {
-  productCategory: string;
-  sellingPrice: number;
+  category: string;
+  price: number;
   weight: number;
-  shippingMode: ShippingMode;
-  serviceLevel: ServiceLevel;
-  productSize: ProductSize;
+  shipping_mode: ShippingMode;
+  service_level: ServiceLevel;
+  product_size: ProductSize;
   location: 'Local' | 'Regional' | 'National' | 'IXD';
 }

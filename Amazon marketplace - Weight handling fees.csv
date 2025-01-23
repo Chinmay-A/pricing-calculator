@@ -1,0 +1,20 @@
+Service Level,Weight Range,Local,Regional,National,IXD
+Easy Ship Standard Size - Premium,First 500g,₹43,₹54.5,₹76,-
+Easy Ship Standard Size - Advanced,First 500g,₹43,₹54.5,₹76,-
+Easy Ship Standard Size - Standard,First 500g,₹49,₹56,₹77,-
+Easy Ship Standard Size - Basic,First 500g,₹55,₹60.5,₹81,-
+Easy Ship Standard Size - All Levels,Additional 500g up to 1kg,₹13,₹17,₹25,-
+Easy Ship Standard Size - All Levels,Additional kg after 1kg,₹21,₹27,₹33,-
+Easy Ship Standard Size - All Levels,Additional kg after 5kg,₹12,₹13,₹16,-
+Easy Ship Heavy & Bulky - All Levels,First 12kg,₹192,₹277,₹371,-
+Easy Ship Heavy & Bulky - All Levels,Each additional kg after 12kg,₹5,₹6,₹12,-
+FBA Standard Size - Premium/Advanced,First 500g,₹29,₹40.5,₹63,₹45
+FBA Standard Size - Standard,First 500g,₹35,₹42,,₹46
+FBA Standard Size - Basic,First 500g,₹41,₹46.5,₹67,₹50
+FBA Standard Size - All Levels,Additional 500g up to 1kg,₹13,₹17,₹25,₹20
+FBA Standard Size - All Levels,Additional kg after 1kg,₹21,₹27,₹33,₹28
+FBA Standard Size - All Levels,Additional kg after 5kg,₹12,₹13,₹16,₹14
+FBA Heavy & Bulky - Premium/Advanced,First 12kg,₹82,₹129,₹176.5,NA
+FBA Heavy & Bulky - Standard,First 12kg,₹88,₹130.5,₹177.5,NA
+FBA Heavy & Bulky - Basic,First 12kg,₹94,₹135,₹181.5,NA
+FBA Heavy & Bulky - All Levels,Each additional kg after 12kg,₹2.5,₹3,₹6,NA
